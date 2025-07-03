@@ -1,8 +1,11 @@
 
 
 
-![TwitchDownloader Logo](https://raw.githubusercontent.com/lay295/TwitchDownloader/master/TwitchDownloaderWPF/Images/Logo.png)  
-![Kicklet Logo](https://kicklet.app/img/logo.87ab9afc.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/lay295/TwitchDownloader/master/TwitchDownloaderWPF/Images/Logo.png" alt="TwitchDownloader Logo" width="80" />
+  <span style="font-size: 24px; font-weight: bold; margin: 0 15px;">X</span>
+  <img src="https://kicklet.app/img/logo.87ab9afc.png" alt="Kicklet Logo" width="80" />
+</p>
 
 
 
