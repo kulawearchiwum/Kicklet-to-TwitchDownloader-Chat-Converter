@@ -1,3 +1,11 @@
+
+
+
+![TwitchDownloader Logo](https://raw.githubusercontent.com/lay295/TwitchDownloader/master/TwitchDownloaderWPF/Images/Logo.png)  
+![Kicklet Logo](https://kicklet.app/img/logo.87ab9afc.png)
+
+
+
 # Kicklet to TwitchDownloader Chat Converter
 
 This tool converts chat JSON files downloaded from [kicklet.app](https://kicklet.app) into a format compatible with the [TwitchDownloader](https://github.com/lay295/TwitchDownloader) chat renderer.
