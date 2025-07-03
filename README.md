@@ -15,7 +15,7 @@ This tool converts chat JSON files downloaded from [kicklet.app](https://kicklet
 1. Run the GUI application.
 2. Load your Kicklet JSON chat file.
 3. Enter the stream's first message time in ISO 8601 format (e.g. `2025-07-01T17:02:27Z`).
-4. Enter the stream duration in seconds (e.g. `25837` for 7 hours, 10 minutes, and 37 seconds).
+4. Enter the stream duration in HH:MM:SS (e.g. `07:10:37` for 7 hours, 10 minutes, and 37 seconds).
 5. Convert and save the TwitchDownloader-compatible chat JSON file.
 6. Load the resulting chat file into TwitchDownloader’s chat renderer for viewing.
 
