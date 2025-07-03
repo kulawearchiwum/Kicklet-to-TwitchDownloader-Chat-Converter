@@ -1,34 +1,37 @@
 # Kicklet to TwitchDownloader Chat Converter
 
-A simple Python GUI tool created by **KulaweArchiwum** to convert Kicklet.app chat JSON files (which lack timestamps formatted for TwitchDownloader) into a fully compatible TwitchDownloader chat renderer JSON format.
+This tool converts chat JSON files downloaded from [kicklet.app](https://kicklet.app) into a format compatible with the [TwitchDownloader](https://github.com/lay295/TwitchDownloader) chat renderer.
 
 ## Features
 
 - Converts Kicklet chat JSON into TwitchDownloader-compatible JSON format.
-- Allows entering the stream's **start time** and **duration** to correctly calculate timestamps and message offsets.
-- User-friendly GUI with file selector and input fields for time data.
-- Outputs a JSON file ready to use with TwitchDownloader chat renderer.
-- Minimal dependencies; uses Python’s built-in `tkinter` and `json`.
+- Allows setting stream start time and duration for accurate timestamp alignment.
+- Randomizes username colors for better chat visualization.
+- Simple GUI built with Python and Tkinter.
+- Outputs fully compatible chat files for TwitchDownloader.
 
 ## Usage
 
-1. Run the GUI script.
-2. Select your Kicklet chat JSON file.
-3. Enter the stream start time in ISO format, e.g. `2025-07-01T19:02:55`.
-4. Enter the stream duration in seconds (e.g., `25837` for 7h10m37s).
-5. Click Convert and save the output file.
+1. Run the GUI application.
+2. Load your Kicklet JSON chat file.
+3. Enter the stream start time in ISO 8601 format (e.g. `2025-07-01T17:02:27Z`).
+4. Enter the stream duration in seconds (e.g. `25837` for 7 hours, 10 minutes, and 37 seconds).
+5. Convert and save the TwitchDownloader-compatible chat JSON file.
+6. Load the resulting chat file into TwitchDownloader’s chat renderer for viewing.
 
-## Format Explanation
+## Installation
 
-- **Stream Start Time**: The exact starting time of the stream in ISO format.
-- **Stream Duration**: Length of the stream in seconds.
-  
-These inputs help convert the chat timestamps properly to sync with the VOD.
+- Requires Python 3.x.
+- No external dependencies (uses built-in `tkinter` and `json` modules).
 
 ## License
 
-This project is licensed under the MIT License — free for anyone to use, modify, and distribute.
+This project is licensed under the [MIT License](LICENSE).  
+Created by KulaweArchiwum.
+
+## References
+
+- TwitchDownloader: https://github.com/lay295/TwitchDownloader  
+- Kicklet: https://kicklet.app
 
 ---
-
-Created by **KulaweArchiwum**
