@@ -1,6 +1,3 @@
-# Kicklet-to-TwitchDownloader-Chat-Converter
-Kicklet to TwitchDownloader Chat Converter
-
 # Kicklet to TwitchDownloader Chat Converter
 
 A simple Python GUI tool created by **KulaweArchiwum** to convert Kicklet.app chat JSON files (which lack timestamps formatted for TwitchDownloader) into a fully compatible TwitchDownloader chat renderer JSON format.
